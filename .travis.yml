@@ -8,9 +8,9 @@ script:
   - npm run build
 
 deploy:
-  provider: "surge"
+  provider: surge
   skip_cleaning: true
-  domain:
+  domain: http://timerapp-hm.surge.sh/
   project: ./build/
 
 on: 
