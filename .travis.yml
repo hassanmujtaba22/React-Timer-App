@@ -9,7 +9,7 @@ script:
 
 deploy:
   provider: surge
-  skip_cleaning: true
+  skip_cleanup: true
   domain: http://timerapp-hm.surge.sh/
   project: ./build/
 
