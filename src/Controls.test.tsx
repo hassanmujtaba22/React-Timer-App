@@ -13,7 +13,6 @@ describe("Controls component render", () => {
     beforeEach(() => {
         component = setUp()
     })
-
     it("should render 3 buttons", () => {
         expect(component.find(`[data-test="btn"]`).length).toEqual(3)
     })
