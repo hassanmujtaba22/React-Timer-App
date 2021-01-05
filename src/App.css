@@ -12,6 +12,15 @@ body{
   height: 300px;
   margin: 20vh auto;
 }
+.mainContainer h1{
+  text-align: center;
+  text-transform: uppercase;
+}
+.mainContainer h6{
+  text-align: right;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
 .timerContainer{
   width: 100%;
   font-size: 100px;

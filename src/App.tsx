@@ -14,12 +14,14 @@ function App() {
 
   return (
     <main className="mainContainer" data-test="mainContainer">
+      <h1>Timer App Created</h1>
       <section className="timerContainer" data-test="timerContainer">
         <span className="timer" data-test="timer">{timerArray[0]}</span>:
         <span className="timer" data-test="timer">{timerArray[1]}</span>:
         <span className="timer" data-test="timer">{timerArray[2]}</span>
       </section>
       <Controls setTimeInSeconds={setTimeInSeconds} />
+      <h6>Hassan Mujtaba</h6>
     </main>
   )
 }
