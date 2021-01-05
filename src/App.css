@@ -49,7 +49,7 @@ body{
   background-color: rgb(196, 0, 0);
 }
 .buttonContainer > .buttons:nth-child(3):hover{
-  background-color: rgb(204, 99, 0);
+  background-color: rgb(231, 112, 0);
 }
 @media (max-width: 400px) {
   .timerContainer{
