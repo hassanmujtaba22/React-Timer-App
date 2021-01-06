@@ -5,12 +5,11 @@ node_js:
 
 install:
   - yarn
-  - npm
 
 script: 
   - npm install
-  - npm test
-  - npm run build
+  - yarn test
+  - yarn build
   
 cache:
   dependancies:
